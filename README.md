@@ -4,10 +4,10 @@ Demo integrating Spring Boot with Kafka and AI for real-time event processing.
 ---
 
 📅 Daily Timesheet – Spring + Kafka + Microsoft Phi AI Demo Project
-Scrum Framework – Day 0 (Client: Non-disclosed – corporate level)
+**Scrum Framework** – Day 0 (Client: Non-disclosed – corporate level)
 
 Narrative context:
-Today, after many months of unpaid downtime and limited project flow, our team has been commissioned by a renowned Client operating in the Corporate World to deliver a new high-impact solution. The engagement followed an initial first discussion call — what HR departments like to label as the “first touchpoint” — and culminated in a face-to-face business lunch. During this lunch, we finalized the agreement, aligned on strategic goals, and set the stage for the delivery phase under Scrum methodology.
+Today, after many months of unpaid downtime and limited project flow, our team has been commissioned by a renowned Client operating in the Corporate World to deliver a new high-impact solution. The engagement followed an initial first discussion call — what HR departments like to label as the “first touchpoint” — and culminated in a face-to-face business lunch. During this lunch, we finalized the agreement, aligned on strategic goals, and set the stage for the delivery phase under **Scrum methodology**.
 
 ---
 
