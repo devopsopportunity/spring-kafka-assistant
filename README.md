@@ -3,7 +3,7 @@ Demo integrating Spring Boot with Kafka and AI for real-time event processing.
 
 ---
 
-📅 Daily Timesheet – Spring + Kafka + Microsoft Phi AI Demo Project
+📅 **Daily Timesheet** – Spring + Kafka + Microsoft Phi AI Demo Project
 **Scrum Framework** – Day 0 (Client: Non-disclosed – corporate level)
 
 Narrative context:
