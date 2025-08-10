@@ -1,32 +1,53 @@
-# spring-kafka-assistant
-Demo integrating Spring Boot with Kafka and AI for real-time event processing.
+# Spring-Kafka-Phi3 AI Demo Project
+
+**Description:**  
+An integrated demo using **Spring Boot**, **Apache Kafka**, and **Microsoft Phi-3** (via Ollama) for real-time event processing, following the **Scrum** framework for project management.
 
 ---
 
-📅 **Daily Timesheet** – Spring + Kafka + Microsoft Phi AI Demo Project
-**Scrum Framework** – Day 0 (Client: Non-disclosed – corporate level)
-
-Narrative context:
-Today, after many months of unpaid downtime and limited project flow, **our Team** has been commissioned by a renowned Client operating in the Corporate World to deliver a new high-impact solution. The engagement followed an initial first discussion call — what HR departments like to label as the “first touchpoint” — and culminated in a face-to-face business lunch. During this lunch, we finalized the agreement, aligned on strategic goals, and set the stage for the delivery phase under **Scrum methodology**.
+## 🎯 Goal
+Build an end-to-end pipeline:  
+Spring Boot Producer → Kafka Topic → Spring Boot Consumer → AI Phi-3 → Processed Response.
 
 ---
 
-| Time              | Activity                                                              | Notes / Scrum Context                                                                                                                                                                                                                                                                                                                                                                    |
-| ----------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **13:00 – 14:00** | 🤝 Contract signing & business lunch                                  | Finalized agreement with client (non-disclosed). Negotiated scope, clarified deliverables, built trust. Political and relationship management role covered.                                                                                                                                                                                                                              |
-| **14:00 – 14:15** | 🚶 Transition from client meeting to Dev Team area                    | Official handover from business negotiation to delivery execution.                                                                                                                                                                                                                                                                                                                       |
-| **14:15 – 14:30** | 🎉 Kick-off celebration with Scrum Team                               | Short inaugural toast. Team: 2 Senior Devs, 2 Junior Devs, Scrum Master (my role). Built team morale and clarified vision.                                                                                                                                                                                                                                                               |
-| **14:30 – 15:00** | 📢 First Scrum Team alignment meeting                                 | Introduced project vision, roles, and first draft of Product Backlog. Defined *Definition of Done* and agreed on working agreements.                                                                                                                                                                                                                                                     |
-| **15:00 – 15:15** | ☕ Coffee break                                                        | Informal bonding continued to strengthen collaboration spirit.                                                                                                                                                                                                                                                                                                                           |
-| **15:15 – 17:00** | 🛠️ Spring Boot 3.5.4 setup + Ollama 0.11.2 with Microsoft Phi3 model | Configured environment (Java 21). Loaded Microsoft Phi3 for multilingual conversational AI testing.                                                                                                                                                                                                                                                                                      |
-| **17:00 – 17:30** | 📡 Apache Kafka deployment strategy on Kubernetes                     | Researched latest Kafka (4.0.0, KRaft mode). Drafted Helm-based deployment plan.                                                                                                                                                                                                                                                                                                         |
-| **17:30 – 18:00** | 🍉 Informal team building – Watermelon break (St. Lawrence Night)     | Strengthened team cohesion to improve collaboration in next sprint phases.                                                                                                                                                                                                                                                                                                               |
-| **18:00 – 20:00** | 🔬 AI integration tests (Microsoft Phi in Italian context)            | Tested domain-specific responses, sentiment accuracy, and conversational speed.                                                                                                                                                                                                                                                                                                          |
-| **20:00 – 20:30** | 🍝 Informal team building – Spaghetti dinner al pomodoro e basilico   | Strengthened team cohesion to improve collaboration in next sprint phases.                                                                                                                                                                                                                                                                                                               |
-| **20:30 – 21:00** | 📝 End-of-day Scrum review + backlog grooming                         | Updated backlog, logged lessons learned, aligned sprint goals with strategic objectives.                                                                                                                                                                                                                                                                                                 |
-| **21:00 – 22:00** | 📊 *Final Stand-up & Definition of Done review + Git push*            | Closed the day with a structured *end-of-sprint* checkpoint. Reviewed acceptance criteria and critical issues (*smarcatura criticità*) with the Scrum Team. Pushed updated documentation and codebase to GitHub for visibility. **Product Owner** (proxy role in this simulation: **Solution Provider**) and **Stakeholder** (simulated client who signed contract) informed via report. |
+## 📅 Project Journal
+Day-by-day documentation is available in `/scrum-days`:
+
+- [Day 0 – Kick-off & Setup](./scrum-days/day-0.md)
+- [Day 1 – Event Streaming Core Setup](./scrum-days/day-1.md) *(in progress)*
 
 ---
 
-On this St. Lawrence Night, may every shooting star carry forward our ambitions — from sprint goals to life goals. Let’s close the day with focus, gratitude, and a wish for success that scales beyond this project. 🌠
+## 🗺️ Roadmap
+- **Sprint 1 (3 days)**:  
+  - Deploy Kafka in KRaft mode on Kubernetes  
+  - Spring Boot Producer on `MyTopic#1`  
+  - Spring Boot Consumer + Ollama/Phi-3 API  
+  - JUnit/Mockito tests  
+  - Documentation
 
+- **Sprint 2**:  
+  - React.js interface  
+  - Demo features (login, advanced Java functions)  
+  - Architectural extensions (Spring Cloud, resilience, etc.)
+
+---
+
+## 🛠️ Tech Stack
+- **Backend:** Java 21, Spring Boot 3.5.4
+- **Streaming:** Apache Kafka 4.0.0 (KRaft mode, Kubernetes)
+- **AI:** Ollama 0.11.2 with Microsoft Phi-3
+- **Testing:** JUnit 5, Mockito, Hamcrest
+- **Container:** Docker, Kubernetes
+- **Database:** MongoDB / Redis *(to be defined)*
+- **UI:** React.js *(Sprint 2)*
+
+---
+
+## 📂 Repository Structure
+/scrum-days
+day-0.md
+day-1.md
+src/...
+README.md
