@@ -2,40 +2,42 @@
 **Scrum Framework** – Day 2 (Client: Non-disclosed – Corporate Stakeholder)
 
 ## Narrative Context
-**2 – Continua…**  
-Il lavoro riprende esattamente dal punto in cui ci siamo fermati ieri.  
-Obiettivo della giornata: completare l’**Environment Setup** e iniziare il primo **Event Producer Module** in Spring Boot collegato a Kafka, con focus sull’integrazione futura di Microsoft Phi AI.
+**2 – Continuation…**  
+Work resumes exactly where we left off yesterday.  
+**Objective of the day**: complete the **Environment Setup** and start the first **Event Producer Module** in Spring Boot connected to Kafka, with a focus on future integration of Microsoft Phi AI.  
+
+In Scrum, we do not make “fortune-teller” predictions. Instead, the team defines priorities based on the Sprint Goal, re-prioritizes remaining work, and ensures that all deliverables for the day meet the **Definition of Done**.
 
 ---
 
 | Time              | Activity                                          | Notes / Scrum Context                                                                                                                                                                                                                                             |
 | ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **09:00 – 09:15** | 👋 Team Sync-up & Quick Coffee                    | Breve saluto, verifica backlog e reminder delle task rimaste aperte da ieri.                                                                                                                                                                                      |
-| **09:15 – 10:30** | ⚙️ Environment Setup & Core Service Bootstrapping | Finalizzazione setup locale: Spring Boot skeleton completato, Kafka broker e initial topics configurati. Allineamento con DoD per “Core Service Ready”.                                                                                                          |
-| **10:30 – 13:00** | 💻 Coding Session: Event Producer Module          | Implementazione del primo Event Producer module in Spring Boot con publishing verso Kafka. Discussione architetturale su come Microsoft Phi AI consumerà e reagirà agli eventi.                                                                                   |
-| **13:00 – 14:00** | 🍽 Lunch Break                                    | Pausa pranzo aziendale.                                                                                                                                                                                                                                           |
-| **14:00 – 16:30** | 🔄 Iterative Coding & Testing                     | Sviluppo incrementale, unit testing, fix di eventuali bug introdotti.                                                                                                                                                                                             |
-| **16:30 – 17:00** | 📝 Internal Review & Commit                       | Code review tra pari, push su GitHub e aggiornamento task board.                                                                                                                                                                                                  |
-| **17:00 – 17:30** | 📢 Sprint Debrief & Planning for Day-3             | Breve retrospettiva della giornata, identificazione dei punti di blocco e prioritizzazione per domani.                                                                                                                                                            |
+| **09:00 – 09:15** | 👋 Team Sync-up & Quick Coffee                    | Short greeting, backlog check, and reminder of the remaining open tasks from yesterday.                                                                                                                                                                         |
+| **09:15 – 10:30** | ⚙️ Environment Setup & Core Service Bootstrapping | Finalizing the local setup: Spring Boot skeleton completed, Kafka broker and initial topics configured. Alignment with DoD for “Core Service Ready.”                                                                                                            |
+| **10:30 – 13:00** | 💻 Coding Session: Event Producer Module          | Implementation of the first Event Producer module in Spring Boot with publishing to Kafka. Architectural discussion on how Microsoft Phi AI will consume and react to events.                                                                                   |
+| **13:00 – 14:00** | 🍽 Lunch Break                                    | Corporate lunch break.                                                                                                                                                                                                                                           |
+| **14:00 – 16:30** | 🔄 Iterative Coding & Testing                     | Incremental development, unit testing, fixing any introduced bugs.                                                                                                                                                                                              |
+| **16:30 – 17:00** | 📝 Internal Review & Commit                       | Peer code review, push to GitHub, and task board update.                                                                                                                                                                                                         |
+| **17:00 – 18:15** | 📢 Sprint Debrief & Planning for Day-3             | Short retrospective of the day, identification of blockers, and prioritization for tomorrow.                                                                                                                                                                    |
 
 ---
 
 ## 📌 Sprint & Scrum Notes
-- **Sprint Goal Alignment**: Completamento setup ambiente e implementazione del primo Producer in Spring Boot.
-- **Definition of Done Check**: Environment 100% completato; Producer module in stato di sviluppo intermedio.
-- **Blockers / Critical Issues**: Attesa conferma da parte del Client per la configurazione cloud.
-- **Backlog Grooming Outcome**: “AI Consumer Integration” confermato per Day-3.
-- **Stakeholder Communication**: Report intermedio inviato al Client a fine giornata.
+- **Sprint Goal Alignment**: Complete environment setup and implement the first Producer in Spring Boot.
+- **Definition of Done Check**: Environment 100% completed; Producer module in mid-development state.
+- **Blockers / Critical Issues**: Awaiting Client confirmation for cloud configuration.
+- **Backlog Grooming Outcome**: “AI Consumer Integration” confirmed for Day-3.
+- **Stakeholder Communication**: Mid-sprint report sent to Client at the end of the day.
 
 ---
 
 ## 🧠 Lessons Learned
-- Importanza di partire con backlog chiaro fin dal mattino per ridurre attriti.
-- Setup ambiente richiede buffer time extra per evitare rallentamenti nei giorni successivi.
+- Importance of starting the day with a clear backlog to reduce friction.
+- Environment setup requires extra buffer time to avoid slowdowns in later stages.
 
 ---
 
 ## 🚀 Next Steps
-- Concludere implementazione Producer.
-- Avviare sviluppo Consumer con Microsoft Phi AI.
-- Test end-to-end Producer–Consumer.
+- Finalize Producer implementation.
+- Start Consumer development with Microsoft Phi AI.
+- Perform end-to-end Producer–Consumer testing.
