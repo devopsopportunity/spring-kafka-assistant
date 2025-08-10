@@ -40,6 +40,7 @@ If you are **not familiar with Scrum**, think of it as a lightweight project man
 - 👋 [Day 0 – Kick-off & Setup](./scrum-days/day-0.md) *(2025-08-09)*
 - 📄 [Day X – Scrum Template](./scrum-days/day-X.md)
 - 🚀 [Day 1 – Event Streaming Core Setup](./scrum-days/day-1.md) *(in progress, 2025-08-10)*
+- 📈 [Day 2 – Sprint Planning & Backlog Alignment](./scrum-days/day-2.md) *(scheduled 2025-08-11)*
 
 ---
 
