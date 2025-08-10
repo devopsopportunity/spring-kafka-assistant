@@ -12,12 +12,22 @@ Spring Boot Producer → Kafka Topic → Spring Boot Consumer → AI Phi-3 → P
 
 ---
 
-## 📅 Project Journal
-Day-by-day documentation is available in `/scrum-days`:
+# 📅 Project Journal
 
-- [Day 0 – Kick-off & Setup](./scrum-days/day-0.md)  
-- [Day X – Scrum Template](./scrum-days/day-X.md)  
-- [Day 1 – Event Streaming Core Setup](./scrum-days/day-1.md) *(in progress)*
+Welcome to the **Sprint Log** — a day-by-day record of our Scrum-based project journey.  
+Each entry contains:
+- 🎯 Goals and daily objectives
+- 📊 Progress tracking
+- 🔄 Retrospectives
+
+All daily logs are stored in the 📂 [`/scrum-days`](./scrum-days) folder.
+
+---
+
+## 🚦 Daily Logs
+- 👋 [Day 0 – Kick-off & Setup](./scrum-days/day-0.md) *(2025-08-09)*
+- 📄 [Day X – Scrum Template](./scrum-days/day-X.md)
+- 🚀 [Day 1 – Event Streaming Core Setup](./scrum-days/day-1.md) *(in progress, 2025-08-10)*
 
 ---
 
