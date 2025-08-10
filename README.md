@@ -22,6 +22,18 @@ Each entry contains:
 
 All daily logs are stored in the 📂 [`/scrum-days`](./scrum-days) folder.
 
+## 📌 How to Read This Journal (Scrum 101)
+This log follows a **Scrum-based daily structure**:
+1. **Stand-up meeting** – Morning sync to align priorities and identify blockers.  
+2. **Sprint goal tracking** – Ensuring each day contributes to the current sprint’s objectives.  
+3. **Backlog grooming** – Refining and prioritizing tasks as new information emerges.  
+4. **Retrospective notes** – Lessons learned and action points for improvement.
+
+If you are **not familiar with Scrum**, think of it as a lightweight project management framework that:
+- Works in short cycles (*sprints*, usually 1–2 weeks)
+- Focuses on delivering small, valuable increments
+- Encourages continuous feedback and adaptability
+
 ---
 
 ## 🚦 Daily Logs
