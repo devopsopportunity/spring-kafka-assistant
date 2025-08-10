@@ -15,7 +15,8 @@ Spring Boot Producer → Kafka Topic → Spring Boot Consumer → AI Phi-3 → P
 ## 📅 Project Journal
 Day-by-day documentation is available in `/scrum-days`:
 
-- [Day 0 – Kick-off & Setup](./scrum-days/day-0.md)
+- [Day 0 – Kick-off & Setup](./scrum-days/day-0.md)  
+- [Day X – Scrum Template](./scrum-days/day-X.md)  
 - [Day 1 – Event Streaming Core Setup](./scrum-days/day-1.md) *(in progress)*
 
 ---
