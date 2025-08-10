@@ -15,7 +15,7 @@ The goal is to keep **consistency** in formatting, structure, and narrative flow
 | **10:30 – 13:00** | 💻 Coding / Setup Block                           | Placeholder — specify main technical tasks (e.g., module implementation, testing, research).                                                                                         |
 | **13:00 – 14:00** | 🍽 Lunch Break                                    | Placeholder — describe networking or informal interactions if relevant.                                                                                                              |
 | **14:00 – 17:00** | 💻 Coding Session                                 | Placeholder — insert details about modules/features worked on.                                                                                                                       |
-| **17:00 – 17:30** | 📝 Internal Review & Commit                       | Placeholder — code review, testing, commit notes.                                                                                                                                     |
+| **17:00 – 18:15** | 📝 Internal Review & Commit                       | Placeholder — code review, testing, commit notes.                                                                                                                                     |
 
 ---
 
